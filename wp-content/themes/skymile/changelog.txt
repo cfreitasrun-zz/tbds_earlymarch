@@ -1,0 +1,41 @@
+Version 1.0.6
+******************************
+1. Tgm class updated with latest version.
+2. Screenshot.png updated.
+3. Fixed some WordPress.org raised issues.
+
+Version 1.0.5
+******************************
+1. WordPress.org raised review issues fixed.
+
+Version 1.0.4
+******************************
+1. Kirki Toolkit removed from theme and recommended via tgm.
+2. Fontawesome library included in theme directory.
+3. Google font loading issue fixed.
+4. All escaping issues fixed.
+5. All translation issues fixed.
+6. Removed default data from customizer option.
+
+Version 1.0.3
+******************************
+1. Home page slider content implemented via post content.
+2. Home page feature content implemented via post content.
+
+Version 1.0.2
+******************************
+1. All scaping issues fixed.
+2. Enhanced theme documentation in readme.txt.
+3. Home page feature settings modified to allow only 3 section.
+4. Home page slider settings modified to allow only 2 slide.
+5. Text domain issues fixed.
+6. Hard coded script/links issues fixed.
+7. Disabled default logo.
+
+Version 1.0.1
+******************************
+1. All Theme options are implemented to customizer.
+
+Version 1.0
+******************************
+1. Initial Release.

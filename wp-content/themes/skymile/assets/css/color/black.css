@@ -1,0 +1,28 @@
+a:hover{
+    color:#444343;
+}
+#header #menu li.current_page_item a, 
+#header #menu li.current-menu-parent a, 
+#header #menu li.current_page_parent a, 
+#header #menu li a.selected, 
+#header #menu li a:hover{
+    background: #000;
+}
+#main{
+    border-top-color:#000;
+}
+.testimonial-wrap .testimonials{
+    border-color: #313131;
+}
+a,
+#slider_wrapper .flex-control-paging li a:hover ,
+#slider_wrapper .flex-control-paging li a.flex-active,
+.testimonial-wrap .testimonial-content .testimonial-title{
+    color: #313131;
+}
+#header .highlight{
+    color: #000;
+}
+.tagline .tabline-btn{
+    background-color:  #000;
+}

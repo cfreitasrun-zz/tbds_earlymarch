@@ -1,0 +1,458 @@
+/*
+Theme Name: Twenty Seventeen Child
+Theme URI: https://wordpress.org/themes/twentyseventeen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+template: twentyseventeen
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Normalize
+2.0 Accessibility
+3.0 Alignments
+4.0 Clearings
+5.0 Typography
+6.0 Forms
+7.0 Formatting
+8.0 Lists
+9.0 Tables
+10.0 Links
+11.0 Featured Image Hover
+12.0 Navigation
+13.0 Layout
+   13.1 Header
+   13.2 Front Page
+   13.3 Regular Content
+   13.4 Posts
+   13.5 Pages
+   13.6 Footer
+14.0 Comments
+15.0 Widgets
+16.0 Media
+   16.1 Galleries
+17.0 Customizer
+18.0 SVGs Fallbacks
+19.0 Media Queries
+20.0 Print
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Normalize
+Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
+--------------------------------------------------------------*/
+@import url("../twentyseventeen/style.css");
+
+
+header#masthead.site-header{
+  background-image: url("./images/tinybirdbackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+div.custom-header {
+  margin-bottom: 0;
+  padding: 0px;
+  width: 100%;
+}
+
+
+/* Content Width */
+#page {
+  background-color: gainsboro;
+}
+
+
+.site-main {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div#content.site-content {
+  width: 100%;
+  align-content: center;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+div.site-content {
+  margin-top: 1em;
+  padding-top: 0em;
+  padding-bottom: 0px;
+}
+
+header.entry-header {
+  padding-bottom: 0px;
+}
+
+.entry-content {
+  text-align: left;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+main#main.blog-main {
+  width: 645px;
+}
+
+@font-face {
+  font-family: CarleyCo;
+  src: url(fonts/carleyco-regular.ttf);
+}
+
+@font-face {
+  font-family: Olivia;
+  src: url(fonts/olivia.otf);
+}
+
+.site-title {
+  font-family: CarleyCo;
+}
+
+div.site-branding {
+  text-align: center;
+  margin-top: 0px;
+}
+
+a.custom-logo-link {
+  padding-right: 0px;
+}
+
+div.navigation-top {
+  position: relative;
+}
+
+
+
+ul#top-menu.menu {
+  text-align: center;
+}
+/*ALL PAGES*/
+div.homepage-hero {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+
+div.about-hero {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+/*front-page*/
+ul.homepage-featured-work {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li.individual-featured-work {
+
+  margin-top: 60px;
+  margin-bottom: 160px;
+  text-align: center;
+  width: 100%;
+}
+
+li.individual-featured-work figure {
+  margin: 0px 30px;
+}
+
+li.individual-featured-work h3 {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 18px;
+  padding: 0px;
+}
+
+li.individual-featured-work p {
+  text-align: left;
+}
+
+li.individual-featured-work p strong a {
+  background-color: #821424;
+  color: white;
+  float: right;
+  padding: 10px 10px;
+}
+
+/*Case Study*/
+article.case-study {
+  width: 30%;
+  display: inline-block;
+}
+
+figure {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  text-align: center;
+  display: inline-flex;
+}
+
+img.attachment-medium.size-medium {
+  border-radius: 100px;
+}
+
+div.site-content h4 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*contact form*/
+button.button-submit {
+  margin: 0 auto;
+}
+.button-submit {
+  text-align: center;
+  margin: 0 auto;
+}
+
+button:hover, button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background: #611616;
+}
+
+div.wdform-label-section.wd-width-30.wd-flex-row {
+  width: 13%;
+  text-align: left;
+}
+
+div.wdform-label-section.wd-width-30 {
+  width: 13%;
+  text-align: left;
+}
+
+/*cust case images*/
+.has-sidebar:not(.error404) #primary {
+  float: none;
+  width: 100%;
+}
+
+li.individual-about-service.clearfix {
+  list-style: none;
+}
+
+div.site-info {
+  text-align: center;
+}
+
+
+
+
+div.services-blurb {
+  width: 100%;
+}
+
+.blog-main p {
+  margin-top: 3em;
+  text-align: left;
+}
+
+/*POSTS*/
+.site-content {
+  padding: 1em 0 0;
+}
+
+span.mh-dropcap {
+float: left;
+font-size: 75px;
+line-height: 60px;
+padding-top: 4px;
+padding-right: 8px;
+padding-left: 3px;
+}
+}
+
+/*PIECES*/
+ul.grid-gallery-work {
+  display: inline-grid;
+  float: left;
+  margin: 0px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+li.individual-piece {
+  background-color: #e8e4de;
+  display: inline-grid;
+  float: left;
+  margin: 0px;
+  text-decoration: none;
+  text-transform: none;
+  height: 222px;
+  width: 222px;
+}
+
+li.individual-piece h3{
+    padding-top: 13px;
+}
+
+/* ABOUT PAGE */
+div.about-description {
+  width: 100%;
+}
+
+div.about-content {
+  font-family: 'Taviraj', 'EB Garamond', 'Cormorant Garamond', 'Lora', 'Source Serif Pro', serif;
+  font-size: 1.4em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* CONTACT */
+
+.contact-content {
+  background-color: #f5eedb;
+  border: 1px solid #bdbeb6a6;
+}
+
+form#form1.fm-form.form1 {
+  width: 100%;
+}
+
+div.contact-content
+.entry-content {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+form#form1.fm-form.form1
+.fm-header-title {
+  font-family: Olivia;
+  font-size: 50px;
+  color: black;
+  margin-left: 2em;
+  margin-top: 0;
+  text-align: left;
+}
+
+div.fm-header-description {
+  font-size: 20px;
+  width: 78%;
+  margin-left: 5em;
+  margin-right: 2em;
+}
+
+div.wdform_column{
+  margin-left: 5em;
+}
+
+.fm-form .button-submit {
+  background-color: #611616;
+  width: 30%;
+}
+
+article#post-1734.post-1734.page.type-page.status-publish.hentry {
+  height: 580px;
+}
+
+div.endpostcardp {
+  margin-left: 20px;
+  margin-top: -45px;
+}
+
+/* MEDIA QUERIES */
+/*Will target only screens 400 to 600*/
+/*MAIN STYLES FOR TABLETS*/
+@media only screen and (max-width: 1024px) and (min-width: 413px) {
+
+  div.about-content {
+    font-size: 1em;
+  }
+
+}
+/*MAIN STYLES FOR CELLPHONES*/
+@media only screen and (max-width: 412px) and (min-width: 400px){
+
+  header#masthead.site-header{
+    background-image: url("./images/tinybirdbackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+  }
+
+  div.custom-header {
+    margin-bottom: 0;
+    padding: 0px;
+    width: 100%;
+  }
+
+  div.wrap {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  form#form1.fm-form.form1
+  .fm-header-title {
+    font-size: 3em;
+  }
+
+  div.entry-content {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+
+  div.about-content {
+    font-size: 1em;
+  }
+
+  div.site-content-contain {
+    margin-top: 0px;
+  }
+
+/*CONTACT*/
+div#content.site-content {
+  margin-top: 0px;
+}
+
+form#form1.fm-form.form1
+.fm-header-title {
+  font-family: Olivia;
+  font-size: 50px;
+  color: black;
+  margin-left: 1em;
+  margin-top: 0;
+  text-align: left;
+}
+
+div.fm-header-description {
+  font-size: 20px;
+  width: 100%;
+  margin-left: 1em;
+  margin-right: 2em;
+  padding-right: 12px;
+}
+
+div#primary.contact-content {
+  margin-top: 0px;
+}
+
+div.wdform_column {
+  margin-left: 0px;
+  margin-right: 13px;
+  text-align: center;
+}
+
+}
+
+@media screen and (orientation: landscape) {
+
+}

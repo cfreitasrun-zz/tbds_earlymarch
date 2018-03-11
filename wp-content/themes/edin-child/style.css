@@ -1,0 +1,73 @@
+/*
+Theme Name: Edin-child
+Theme URI: https://wordpress.com/themes/edin/
+Description: Edin is a modern responsive business and corporate theme that helps you to create a strong--yet beautiful--online presence for your business.
+Version: 1.3.1
+Author: Automattic
+Author URI: https://wordpress.com/themes/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: Edin
+Text Domain: edin
+Tags: blog, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, left-sidebar, post-formats, right-sidebar, rtl-language-support, sticky-post, theme-options, translation-ready, two-columns
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Reset
+2.0 - Typography
+3.0 - Elements
+4.0 - Forms
+5.0 - Navigation
+	5.1 - Links
+	5.2 - Pagination
+	5.3 - Menu Toggle
+	5.4 - Primary Navigation
+	5.5 - Secondary Navigation
+	5.6 - Footer Navigation
+	5.7 - Social Navigation
+6.0 - Accessibility
+7.0 - Alignments
+8.0 - Clearings
+9.0 - Layout
+10.0 - Widgets
+11.0 - Content
+12.0 - Comments
+13.0 - Media
+	13.1 - Images
+	13.2 - Galleries
+	13.3 - Iframes
+14.0 - Jetpack
+	14.1 - Contact Form
+	14.2 - Galleries
+	14.3 - Infinite Scroll
+	14.4 - PollDaddy
+	14.5 - Sharedaddy
+	14.6 - Responsive Videos
+	14.7 - Widgets
+	14.8 - Testimonials
+15.0 - Eventbrite
+16.0 - Responsive
+	16.1 - x >= 600px
+	16.2 - x >= 768px
+	16.3 - x >= 1020px
+	16.4 - x >= 1230px
+--------------------------------------------------------------*/
+@import url("../edin/style.css");
+
+@font-face {
+  font-family: CarleyCo;
+  src: url(fonts/carleyco-regular.ttf);
+}
+
+.site-title {
+  font-family: CarleyCo;
+}
+
+
+
+/* Content Width */
+div#content.site-content {
+  width: 604px;
+}

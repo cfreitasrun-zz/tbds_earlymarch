@@ -1,0 +1,19 @@
+.featured-wrap .featured-back .featured-img:hover{
+
+}
+.post .post_thumbnail:hover .glyphicon{
+    display: inline-block;
+    -webkit-animation-name: zoomInUp;
+    animation-name: zoomInUp;
+}
+.post .post_thumbnail:hover:hover img.postimg {
+        -moz-transform: scale(1.1) rotate(0deg) translate(0px);
+        -webkit-transform: scale(1.15) rotate(0deg) translate(0px);
+        -o-transform: scale(1.1) rotate(0deg) translate(0px);
+        transform: scale(1.15) rotate(0deg) translate(0px);
+}
+.tagline .tabline-btn:hover{
+    background-color: #000;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}

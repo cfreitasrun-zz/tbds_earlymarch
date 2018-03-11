@@ -1,0 +1,34 @@
+a:hover{
+    color:#b0886f;
+}
+#main{
+    border-top-color:#93674c;
+}
+#header #menu li.current_page_item a, 
+#header #menu li.current-menu-parent a, 
+#header #menu li.current_page_parent a, 
+#header #menu li a.selected, 
+#header #menu li a:hover{
+    background: #93674c;
+}
+a,
+.testimonial-wrap .testimonial-content .testimonial-title{
+    color: #93674c;
+}
+.testimonial-wrap .testimonials{
+    border-color: #93674c;
+}
+#slider_wrapper .flex-control-paging li a:hover ,
+#slider_wrapper .flex-control-paging li a.flex-active,
+.post .post-title a:hover,
+.featured-wrap .featured-content a:hover{
+    color:#93674c;
+}
+#header .highlight,
+#sidebar .sidebar-widget a:hover,
+.post .post-meta #post_meta li a:hover{
+    color: #93674c;
+}
+.tagline .tabline-btn{
+    background-color:  #93674c;
+}

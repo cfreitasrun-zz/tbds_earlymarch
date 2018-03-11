@@ -1,0 +1,13 @@
+#main{
+    margin: 20px auto;   
+    padding:40px 30px;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.38);
+    -moz-box-shadow:    0px 2px 4px 0px rgba(50, 50, 50, 0.38);
+    box-shadow:         0px 2px 4px 0px rgba(50, 50, 50, 0.38);
+    background:url("../../imgs/bg.png");
+    border-top:3px solid #000;
+    padding-bottom: 1px;
+}
+#footer{
+    background-color: #222222;  
+}
